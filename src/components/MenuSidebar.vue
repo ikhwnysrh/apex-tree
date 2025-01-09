@@ -48,10 +48,13 @@
   
   <style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
   
-  <style>
+  <style scoped>
   /* Gaya umum untuk multiselect */
   .multiselect {
     width: 300px;
+  }
+  .multiselect__tags {
+    background-color: #2134be; /* Warna latar tag */
   }
 
   .multiselect__placeholder {
@@ -65,11 +68,6 @@
   }
   
   /* Background untuk opsi dropdown */
-  .multiselect__option:hover {
-    background-color: #2134be; /* Ganti dengan warna latar opsi yang diinginkan */
-    padding: 10px;
-    border-radius: 4px;
-  }
   .multiselect__option {
     background-color: #2134be; /* Ganti dengan warna latar opsi yang diinginkan */
     padding: 10px;
@@ -77,10 +75,6 @@
   }
   
 
-  .multiselect__tags {
-    background-color: #0000; /* Ganti dengan warna latar yang diinginkan */
-    border-radius: 5px;
-  }
   
   /* Placeholder dengan ikon */
   .icon-placeholder {
