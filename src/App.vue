@@ -11,7 +11,6 @@ import Siderbar from './components/Sidebar.vue';
 />
   <MenuSidebar />
   <Siderbar />
-  <h1>Tree</h1>
   <Tree />
 </template>
 

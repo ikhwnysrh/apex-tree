@@ -313,8 +313,8 @@ const data = {
       };
       const options = {
             contentKey: 'data',
-            width: 600,
-            height: 600,
+            width: 1000,
+            height: 800,
             nodeWidth: 150,
             nodeHeight: 60,
             fontColor: '#fff',
